@@ -1,0 +1,463 @@
+/* CSS HEX  paleta cores
+--electric-purple: #C722FFff;
+--medium-slate-blue: #8C72FEff;
+--black: #000000ff;
+--black-2: #000000ff;
+--blue #1e6bff
+--buton color: #f017c9*/
+
+
+/*espaçamento entre itens*/
+
+header {
+  background-color: #141414;
+
+  position: relative;
+}
+
+.navbar {
+  padding: 0;
+  align-items: flex-end;
+
+}
+
+.navbar-brand {
+  font-size: 30px;
+  padding-bottom: 0;
+  display: flex;
+  text-align: end;
+  align-items: flex-end;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+  height: 50px;
+
+}
+
+.container {
+  max-width: 100%;
+}
+
+#nav-container {
+
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggler {
+  left: 0;
+}
+
+.neon-efect {
+  text-shadow:
+    0 0 7px #1e6bff,
+    0 0 10px #fff,
+    0 0 21px #8C72FEff,
+    0 0 42px #1e6bff,
+    0 0 15px #C722FFff;
+
+
+
+}
+
+.sublinhado {
+  text-decoration: underline 3px;
+
+  text-decoration-color: #383838;
+
+}
+
+.nav-link {
+  font-size: 25px;
+  padding: 0;
+
+}
+
+.navbar-expand-lg {
+  padding: 0;
+}
+
+.nav-link:hover {
+
+  text-shadow:
+    0 0 7px #639aff,
+    0 0 10px rgb(217, 105, 255),
+    0 0 21px rgb(184, 169, 255);
+  /* 0 0 42px #1e6bff,
+   0 0 82px #C722FFff,
+   0 0 92px #C722FFff;*/
+
+  text-decoration: underline;
+  text-decoration-color: #141414;
+  transition: 0.6s;
+
+}
+
+
+/*------------------------
+           MAIN 
+------------------------*/
+.carousel-item{/*transição de slide , tempo*/
+transition: 1.6s;
+
+}
+
+/*-----------------------------------------------------------------------------------------
+maioria dos efeitos aplicados ao slide 1
+-----------------------------------------------------------------------------------------*/
+
+.container-fluid {
+  /*controla lateral do conteudo principal*/
+  padding: 0;
+
+}
+
+.carousel-indicators [data-bs-target] {
+  /*barrinhas de ataho carrosel*/
+  border: 0px;
+  background-color: #f017c9;
+
+}
+
+.box-efect {
+  /*efeio neon pra caixas*/
+  box-shadow:
+    0 2px 5px rgb(75, 0, 85),
+    0 2px 0px rgb(75, 0, 85),
+
+    0 2px 5px rgb(0, 0, 0),
+    0px 0 1px rgb(119, 44, 148);
+
+}
+
+.carousel-caption  {
+  /*posição do texto na chamada principal e formatação de texto(base)*/
+  text-align: left;
+  top: 6%;
+  left: 4%;
+}
+
+.carousel-caption .slide-1-carousel {
+  /*edita todo o texto do slide1*/
+  font-family: sans-serif;
+  font-size: 4.5rem;
+  color: #ffffff;
+
+
+  text-shadow:
+    0 0 5px #fff,
+    0 0 30px #f017c9;
+
+}
+
+.carousel-caption .slide-1-carousel::first-letter {
+  /*edita  a primeira letra do slide 1 h5*/
+  font-size: 5.0rem;
+}
+
+
+
+.btn {
+
+
+  position: relative;
+  top: 45%;
+  left: 15%;
+  height: 80px;
+  width: 220px;
+  background-color: #a26dd3;
+  box-shadow:
+    0 0 1px #fff,
+    4px 2px 5px rgb(75, 0, 85),
+    5px 3px 4px #f017c9,
+    0 2px 5px rgb(0, 0, 0),
+    0 0 7px rgb(0, 0, 0),
+    0 0 0 8px #f017c9;
+  color: #fff;
+
+  font-size: 1.5rem;
+  transition: 0.6s;
+}
+
+.btn:hover {
+  background-color: rgb(180, 10, 202);
+
+  box-shadow:
+    0 0 1px #fff,
+    1px 1px 1px rgb(75, 0, 85),
+    0 0 0 #f017c9,
+    0 1px 0px rgb(0, 0, 0),
+    0 0 0 rgb(0, 0, 0),
+    0 0 0 #f017c9;
+  color: #fff;
+
+}
+
+.btn:focus {
+  background-color: rgb(180, 10, 202);
+  box-shadow:
+    0 0 1px #a26dd3,
+    4px 2px 5px #a26dd3,
+    5px 3px 4px #a26dd3,
+    0 2px 5px #a26dd3,
+    0 0 7px #a26dd3,
+    0 0 0 8px #a26dd3;
+  color: #ffffff;
+}
+
+@media(max-width: 970px) {
+
+  /*a baixo de 970px diminui letra (responsividade)*/
+  .carousel-caption .slide-1-carousel {
+
+    font-size: 2.8rem;
+
+  }
+
+  .carousel-caption .slide-1-carousel::first-letter {
+    /*a baixo de 970px diminui a primeira letra (responsividade)*/
+ 
+    font-size: 3.0rem;
+  }
+
+
+  .btn {
+    width: 170px;
+    height: 60px;
+    font-size: 1.0rem;
+  }
+
+  
+}
+
+/*------------------------------------------------------------------------------------------------
+BOTÕES CAROUSEL
+-------------------------------------------------------------------------------------------------*/
+.carousel-control-prev {
+  /*botao que passa slide*/
+  background-color: #a26dd3;
+  opacity: .1;
+  transition: 0.6s;
+  width: 5%;
+  width: 5%;
+  height: 50%;
+  top: 25%;
+  box-shadow:
+    0 0 1px #fff,
+    0 0 4px #f017c9;
+
+}
+
+.carousel-control-next {
+  /*botao que passa slide*/
+  background-color: #a26dd3;
+  opacity: .1;
+  transition: 0.6s;
+  width: 5%;
+  width: 5%;
+  height: 50%;
+  top: 25%;
+  box-shadow:
+    0 0 1px #fff,
+    0 0 4px #f017c9;
+
+}
+
+/*-----------------------------------------------------------------------------------------
+maioria dos efeitos aplicados ao slide 2
+------------------------------------------------------------------------------------------*/
+.carousel-caption .slide-2-carousel {
+  /*edita todo o texto do slide2*/
+ 
+  font-size: 4.5rem;
+  color: #ffffff;
+position: absolute;
+left: 13%;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 30px #f017c9;
+
+}
+
+.carousel-caption .slide-2-carousel::first-letter {
+  /*edita  a primeira letra do slide 2 h5*/
+  font-size: 5.0rem;
+}
+
+.slide-2-container .btn {
+  position: relative;
+  left: 70%;
+  top: 75%;
+}
+
+
+@media(max-width: 970px) {
+
+  /*a baixo de 970px diminui letra (responsividade)*/
+  .carousel-caption .slide-2-carousel {
+   
+    font-size: 2.8rem;
+
+  }
+
+  .carousel-caption .slide-2-carousel::first-letter {
+    /*a baixo de 970px diminui a primeira letra (responsividade)*/
+ 
+    font-size: 3.0rem;
+  }
+  .btn {
+    width: 170px;
+    height: 60px;
+    font-size: 1.0rem;
+  }
+
+ 
+
+
+}
+
+
+/*-------------------------------------------------------*/
+/*CELULAR NÃO CONSEGUIRÁ TER ACESSO AO TEXTO DO CAROUSEL.*/
+@media(max-width: 575px) {
+
+  /*a baixo de 575px ele nao mostra texto(reponsividade)*/
+  .carousel-caption {
+    display: none;
+  }
+}
+
+/*----------------------------------------------------------
+                      CITAÇÃO
+----------------------------------------------------------*/
+
+.citacao-container{
+/*background-image: linear-gradient(to top,#000,#a3a3a3);*/
+background-image: linear-gradient(to top,#000,#270429);
+padding-top: 100px;
+text-align: center;
+background-color: #0f0f0f;
+
+}
+.citacao{
+
+font-size: 3.5rem;
+font-family: 'Nanum Myeongjo', serif;
+color: #fff;
+
+
+
+}
+
+
+.imagem-citacao{
+ margin-top: 26px;
+width: 150px;
+box-shadow: 
+0 1px 10px #fff,
+3px 2px 2px #fff;
+margin-bottom: 25px;
+}
+.img-pena{
+  width: 90px;
+}
+.txt-citacao{
+  text-shadow:
+0 0 10px #fff;
+}
+
+@media(max-width: 500px){
+.txt-citacao{
+  font-size: 1.2rem;
+}
+.img-pena{
+  width: 50px;
+  height: 100px;
+}
+.imagem-citacao{
+  width: 100px;
+}
+}
+
+/*-------------------------------------
+          info-personagem
+-------------------------------------*/
+.info-personagem-container{
+margin-top: 100px;
+border-top: 3px double #270429;
+border-bottom: 3px double #270429;
+
+}
+
+
+
+.info-adc{
+  text-align: center;
+}
+.img-adc{
+  width: 150px;
+}
+.p-adc{
+  font-size: 2.2rem;
+color: #fff;
+text-shadow: 
+0 1px 1px white,
+0 0 3px white;
+}
+.dificuldade-info{
+  display:flex;
+  position: relative;
+ top: 140px;
+justify-content: center;
+top: 0;
+}
+.dificuldade-info div{
+margin: 3px;
+  width: 20px;
+  height: 20px;
+border: 2px solid #96007a;
+background-color: #440038;
+}
+
+div .dif{
+  background-color:#ff00d0 ;
+
+}
+.p-dif{
+  text-align: center;
+  font-size: 2.2rem;
+color: #fff;
+text-shadow: 
+0 1px 1px white,
+0 0 3px white;
+
+}
+
+
+
+
+.info-texto-curto{
+
+text-align: justify;
+}
+
+.info-texto-curto p{
+  font-size: 1.5rem;
+margin: 0;
+color: #fff;
+text-shadow: 
+0 1px 1px white,
+0 0 2px white;
+}
+/*-------------------------------------
+                rodape
+-------------------------------------*/
+.footer-container{
+padding-top: 120px;
+background-image: linear-gradient(to top,#000,#270429);
+}
+
+.canteudo-footer{
+
+}
