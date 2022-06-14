@@ -433,10 +433,6 @@ text-shadow:
 0 0 3px white;
 
 }
-
-
-
-
 .info-texto-curto{
 
 text-align: justify;
@@ -450,15 +446,30 @@ text-shadow:
 0 1px 1px white,
 0 0 2px white;
 }
+@media(max-width: 1200px){
+  .info-texto-curto{
+    margin-left: 0;
+  }
+}
 /*-------------------------------------
                 rodape
 -------------------------------------*/
 .footer-container{
 padding-top: 120px;
-background-image: linear-gradient(to top,#000,#270429);
+background-image: linear-gradient(to bottom,#000,#270429);
 }
 
-.canteudo-footer{
-
-  
+.conteudo-footer h3{
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 
+  0 1px 1px white,
+  0 0 2px white;
+}
+.conteudo-footer p{
+  color: #fff;
+  text-shadow: 
+  0 1px 1px white,
+  0 0 2px white;
+  text-align: end;
 }
