@@ -434,7 +434,6 @@ text-shadow:
 
 }
 .info-texto-curto{
-
 text-align: justify;
 }
 
@@ -451,6 +450,18 @@ text-shadow:
     margin-left: 0;
   }
 }
+@media(max-width: 500px){
+  .info-texto-curto p{
+    font-size: 1rem;
+   
+  }
+  .p-dif{
+    font-size: 1rem;
+  }
+  .p-adc{
+    font-size: 1rem;
+  }
+}
 /*-------------------------------------
                 rodape
 -------------------------------------*/
@@ -465,6 +476,7 @@ background-image: linear-gradient(to bottom,#000,#270429);
   text-shadow: 
   0 1px 1px white,
   0 0 2px white;
+  text-align: left;
 }
 .conteudo-footer p{
   color: #fff;
