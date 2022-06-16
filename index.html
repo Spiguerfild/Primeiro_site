@@ -29,6 +29,8 @@
     <!-- linkagem dos arquivos da pasta r-->
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/components.css">
+   
+  
 
 </head>
 
@@ -38,14 +40,14 @@
     <header>
         <div class="container" id="nav-container">
 
-            <!---->
+            <!--NAVBAR INICIO -->
             <nav class="navbar navbar-expand-lg navbar-dark   ">
 
 
 
-                <a class="navbar-brand neon-efect sublinhado" href="#">
+                <a class="navbar-brand neon-efect sublinhado" href="index.html">
                     <img class="img-nav" id="icon-lol" src="./img/icons8-league-of-legends-64.png" width="60" alt="">
-                    <h1>Xayah</h1>
+                    <h1 >Xayah</h1>
                 </a>
 
 
@@ -60,11 +62,11 @@
                 <div class="collapse navbar-collapse justify-content-end   " id="navbarNavAltMarkup">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Habilidades</a>
+                            <a class="nav-link" href="habilidades.html">Habilidades</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">História</a>
+                            <a class="nav-link" href="história.html">História</a>
                         </li>
 
                     </ul>
@@ -91,11 +93,12 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/img1-carousel.jpg" class="d-block w-100 img-carousel-1" alt="Xayah-Hablidades">
-                        <div class="carousel-caption  d-md-block">
+                        <div  class="carousel-caption  d-md-block">
                             <!--texto chamada principal-->
                             <h5 class="slide-1-carousel ">Xayah a rebelde</h5>
-                            <button type="button" class=" neon-efect btn btn-outline-dark">Visualizar
-                                Habilidades</button>
+                            
+                           <a href="habilidades.html"> <button  type="button"  class=" neon-efect btn btn-outline-dark">Visualizar
+                            Habilidades</button></a>
 
                         </div>
                     </div>
@@ -108,8 +111,9 @@
 
                             <!--texto chamada principal-->
                             <h5 class="slide-2-carousel">História</h5>
-                            <button type="button" class=" neon-efect btn btn-outline-dark">Visualizar
-                                História</button>
+                            <a href="história.html">  <button type="button" class=" neon-efect btn btn-outline-dark">Visualizar
+                                História</button></a>
+                          
                         </div>
                     </div>
                 </div>
@@ -153,8 +157,8 @@
 
         <div class="container info-personagem-container">
             <div class="row">
-                <div class="col-sm-4 info-adc">
-                    <p class="p-adc">Função:</p>
+                <div class="col-xl-4 info-adc">
+                    <p class="p-adc">Função</p>
                     <img class="img-adc" src="img/ADC.png" alt="">
                     <p class="p-adc ">Atirador</p>
                 </div>
@@ -162,6 +166,24 @@
 
 
 
+                <div class="col-xl-2">
+                    <p class="p-dif">Dificuldade</p>
+                    <div class=" dificuldade-info ">
+                        <div class="dif"></div>
+                        <div class="dif"></div>
+                        <div></div>
+                    </div>
+                </div>
+
+
+
+                <div class="offset-1 col-xl-4 info-texto-curto">
+                    <p>Mortal e precisa, Xayah é uma vastaya revolucionária que trava sua própria batalha para salvar
+                        seu povo. Ela usa sua agilidade, malícia e plumas afiadas para
+                        retalhar qualquer um que atrapalhe seu caminho. Xayah luta ao lado de seu parceiro e amante,
+                        Rakan, para proteger sua tribo em extinção e restaurar
+                        a antiga glória de sua raça.</p>
+                </div>
             </div>
         </div>
 
@@ -170,7 +192,22 @@
     </main>
 
 
-    <script type="text/javascript" src="js/script.js"> </script>
+    
+    <footer>
+        <div class="container footer-container">
+            <div class="row">
+                <div class="col-12 conteudo-footer">
+<h3 class="">Feito por: Luis Henrique </h3>
+<h3>TADS-2</h3>
+<p>Utilizando e alterando componentes do bootstrap</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script type="text/javascript" src="js/script.js"> </script><!--teste apenas para ver se o link funciona-->
 
 </body>
 

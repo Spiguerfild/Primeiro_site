@@ -51,11 +51,12 @@ header {
 
 .neon-efect {
   text-shadow:
-    0 0 7px #1e6bff,
-    0 0 10px #fff,
-    0 0 21px #8C72FEff,
-    0 0 42px #1e6bff,
-    0 0 15px #C722FFff;
+    1px 2px 10px #270429,
+    0 0 8px #fff,
+    0 0 1px #8C72FEff,
+    0 0 5px #1e6bff,
+    0 0 10px #C722FFff,
+    0 0 10px #C722FFff;
 
 
 
@@ -328,10 +329,13 @@ left: 13%;
   }
 }
 
-/*----------------------------------------------------------*/
+/*----------------------------------------------------------
+                      CITAÇÃO
+----------------------------------------------------------*/
 
 .citacao-container{
-background-image: linear-gradient(to top,#000,#a3a3a3);
+/*background-image: linear-gradient(to top,#000,#a3a3a3);*/
+background-image: linear-gradient(to top,#000,#270429);
 padding-top: 100px;
 text-align: center;
 background-color: #0f0f0f;
@@ -352,7 +356,7 @@ color: #fff;
  margin-top: 26px;
 width: 150px;
 box-shadow: 
-0 0 1px #fff,
+0 1px 10px #fff,
 3px 2px 2px #fff;
 margin-bottom: 25px;
 }
@@ -382,7 +386,13 @@ margin-bottom: 25px;
 -------------------------------------*/
 .info-personagem-container{
 margin-top: 100px;
+border-top: 3px double #270429;
+border-bottom: 3px double #270429;
+
 }
+
+
+
 .info-adc{
   text-align: center;
 }
@@ -395,6 +405,189 @@ color: #fff;
 text-shadow: 
 0 1px 1px white,
 0 0 3px white;
+}
+.dificuldade-info{
+  display:flex;
+  position: relative;
+ top: 140px;
+justify-content: center;
+top: 0;
+}
+.dificuldade-info div{
+margin: 3px;
+  width: 20px;
+  height: 20px;
+border: 2px solid #96007a;
+background-color: #440038;
+}
+
+div .dif{
+  background-color:#ff00d0 ;
+
+}
+.p-dif{
+  text-align: center;
+  font-size: 2.2rem;
+color: #fff;
+text-shadow: 
+0 1px 1px white,
+0 0 3px white;
+
+}
+.info-texto-curto{
+text-align: justify;
+}
+
+.info-texto-curto p{
+  font-size: 1.5rem;
+margin: 0;
+color: #fff;
+text-shadow: 
+0 1px 1px white,
+0 0 2px white;
+}
+@media(max-width: 1200px){
+  .info-texto-curto{
+    margin-left: 0;
+  }
+}
+@media(max-width: 500px){
+  .info-texto-curto p{
+    font-size: 1rem;
+   
+  }
+  .p-dif{
+    font-size: 1rem;
+  }
+  .p-adc{
+    font-size: 1rem;
+  }
+}
+/*-------------------------------------
+                rodape
+-------------------------------------*/
+.footer-container{
+padding-top: 120px;
+background-image: linear-gradient(to bottom,#000,#270429);
+}
+
+.conteudo-footer h3{
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 
+  0 1px 1px white,
+  0 0 2px white;
+  text-align: left;
+}
+.conteudo-footer p{
+  color: #fff;
+  text-shadow: 
+  0 1px 1px white,
+  0 0 2px white;
+  text-align: end;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                      AQUI COMEÇA A PÁGINA DA HISTÓRIA
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.titulo-historia{
+  border-bottom: 3px solid #990c7f;
+}
+.titulo-historia h2{
+  background-image: linear-gradient(to top,#000,#270429);
+
+  font-size: 4.0rem;
+  color: #ffffff;
+
+  text-shadow:
+    0 0 5px #fff,
+    0 1px 10px #1c0f7c;
+
+text-align: center;
+
+padding-bottom: 100px ;
+}
+
+.historia-paragrafos{
+border-bottom:3px solid #fff;
+
+  }
+
+  .historia-paragrafos p{
+    color: rgb(129, 129, 129);
+    font-size: 1.2rem;
+  }
 
 
+
+
+@media(max-width: 575px){
+  .offset-3{
+    margin-left: 0px;/*retirando o que vem pre configurado*/
+  }
+.historia-paragrafos{
+  margin: 0 ;
+  
+}}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                      AQUI COMEÇA A PÁGINA DAS HABILIDADES
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.habilidades-container{
+  text-align: left;
+}
+.titulo-habilidades{
+border-bottom: 3px solid #990c7f;
+ margin-bottom: 50px;
+}
+.titulo-habilidades h2{
+  background-image: linear-gradient(to top,#000,#270429);
+
+  font-size: 4.0rem;
+  color: #ffffff;
+
+  text-shadow:
+    0 0 5px #fff,
+    0 1px 10px #1c0f7c;
+
+text-align: center;
+
+padding-bottom: 100px ;
+}
+
+.divisao-base h3{
+  font-size: 2.2rem;
+  color: #fff;
+  text-shadow: 
+  0 1px 1px white,
+  0 0 3px white;
+}
+
+.divisao-base p{
+  font-size: 1.2rem;
+  color: #fff;
+
+}
+
+.divisao-base{
+  border-bottom: 5px double #ffffff;
+  border-top: 5px double #ffffff;
+  border-left:5px double #fff ;
+  background-image: linear-gradient(to left,#000,#270429);
+ /* padding: 30px 0 30px 0;*/
+  margin-top:30px ;
+  margin-bottom: 30px;
+}
+@media(max-width: 500px){
+  .divisao-base h3{
+    font-size: 1.0rem;
+    color: #fff;
+    text-shadow: 
+    0 1px 1px white,
+    0 0 3px white;
+  }
+  
+  .divisao-base p{
+    font-size: 0.8rem;
+    color: #fff;
+  
+  }
 }
