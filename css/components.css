@@ -51,20 +51,20 @@ header {
 
 .neon-efect {
   text-shadow:
-<<<<<<< HEAD
+
     1px 2px 10px #270429,
     0 0 8px #fff,
     0 0 1px #8C72FEff,
     0 0 5px #1e6bff,
     0 0 10px #C722FFff,
     0 0 10px #C722FFff;
-=======
-    0 0 7px #1e6bff,
+
+    /*0 0 7px #1e6bff,
     0 0 10px #fff,
     0 0 21px #8C72FEff,
     0 0 42px #1e6bff,
     0 0 15px #C722FFff;
->>>>>>> 5e075d8e7a4124b6d276b9ebf3a76f9403e585cf
+*/
 
 
 
@@ -497,7 +497,7 @@ background-image: linear-gradient(to bottom,#000,#270429);
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                       AQUI COMEÇA A PÁGINA DA HISTÓRIA
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-<<<<<<< HEAD
+
 .titulo-historia{
   border-bottom: 3px solid #990c7f;
 }
@@ -585,6 +585,7 @@ padding-bottom: 100px ;
   margin-top:30px ;
   margin-bottom: 30px;
 }
+
 @media(max-width: 500px){
   .divisao-base h3{
     font-size: 1.0rem;
@@ -599,8 +600,4 @@ padding-bottom: 100px ;
     color: #fff;
   
   }
-=======
-.historia-container{
-  
->>>>>>> 5e075d8e7a4124b6d276b9ebf3a76f9403e585cf
 }
