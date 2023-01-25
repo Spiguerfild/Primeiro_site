@@ -1,3 +1,3 @@
 # Trabalhos_semetre2
-compartilhar meu trabalho de LAEC faculdade
+Primeiro site que criei(feito com bootstrap)
 link do resultado final: https://spiguerfild.github.io/Primeiro_site/ 
