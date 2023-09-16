@@ -1,4 +1,6 @@
 # Trabalhos_semetre2
-Primeiro site que criei(feito com bootstrap)
+HTML | CSS | JS | Bootstrap 
+
+Primeiro site que criei 
 
 link do resultado final: https://spiguerfild.github.io/Primeiro_site/ 
